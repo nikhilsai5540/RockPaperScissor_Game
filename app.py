@@ -5,6 +5,7 @@ app = Flask(__name__)
 
 choices = ["Rock", "Paper", "Scissor"]
 
+
 @app.route("/", methods=["GET", "POST"])
 def game():
 
