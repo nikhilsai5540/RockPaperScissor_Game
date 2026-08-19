@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-container {
+    background: white;
+    width: 600px;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.choices button {
+    width: 150px;
+    height: 130px;
+
+    border: none;
+    border-radius: 15px;
+
+    background: #f1f3f6;
+
+    font-size: 45px;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.choices button span {
+    display: block;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.choices button:hover {
+    transform: translateY(-8px);
+    background: #667eea;
+    color: white;
+}
+
+.result-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    margin-top: 40px;
+    padding: 25px;
+
+    background: #f5f5f5;
+    border-radius: 15px;
+}
+
+.choice p {
+    color: #777;
+    margin-bottom: 8px;
+}
+
+.choice h2 {
+    font-size: 24px;
+}
+
+.vs {
+    font-weight: bold;
+    font-size: 22px;
+    color: #667eea;
+}
+
+.result {
+    margin-top: 25px;
+    padding: 15px;
+
+    background: #667eea;
+    color: white;
+
+    border-radius: 10px;
+}
